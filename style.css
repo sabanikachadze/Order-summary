@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=New+Rocker&family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family:"New Rocker", serif;
+  box-sizing: border-box;
+ overflow: hidden;
+}
+
+body{
+  background: url(pxfuel\ \(6\).jpg);
+  background-color: rgb(209, 215, 219);
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 450px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0px 6px 89px 20px rgba(56,51,51,0.71);
+-webkit-box-shadow: 0px 6px 89px 20px rgba(56,51,51,0.71);
+-moz-box-shadow: 0px 6px 89px 20px rgba(56,51,51,0.71);
+background-color: rgba(0, 0, 0, 0.288);
+}
+.header{
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+  padding-top: 18px;
+  padding-bottom: 10px;
+  font-stretch: semi-condensed;
+}
+.text{
+  opacity: 0.8;
+  color: rgb(2, 2, 14);
+  width: 100%;
+  text-align: center;
+  padding-left: 65px;
+  padding-right: 65px;
+  font-weight: 300;
+  font-size: 13px;
+  padding-bottom: 15px;
+}
+
+#rest{
+  background-image: url();
+  background-color: white;
+  width: 450px;
+  border-radius: 0px 0px 20px 20px;
+}
+button{
+  height: 45px;
+  width: 80%;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(112, 49, 49);
+  cursor: pointer;
+  box-shadow: 0px 20px 20px rgba(116, 38, 38, 0.493);
+  transition: 0.4s;
+}
+button:hover{
+  transition: 0.4s;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  box-shadow: 0px 20px 20px rgba(255, 0, 0, 0.623);
+}
+.cancel{
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  margin: 20px 0 15px 0;
+  display: inline-block;
+  transition: 0.2s;
+}
+.cancel:hover{
+  transition: 0.2s;
+  color: rgb(165, 0, 0);
+}
+.actualimg{
+  border-radius: 20px 20px 0px 0px ;
+  height: 280px; 
+  width: 450px;
+  
+}
+.pricing{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  background-color: rgb(238, 245, 252);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  justify-content: space-between;
+}
+.last {
+  cursor: pointer;
+  color: rgb(194, 18, 18);
+  font-weight: bold;
+  opacity: 0.8;
+  transition: 0.4s;
+  
+}
+.last:hover{
+  transition: 0.4s;
+  color: rgb(255, 66, 66);
+ 
+}
+.top{
+  font-weight: bold;
+}
+.bottom{
+  opacity: 0.7;
+}
+.container{display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+
+@media only screen and (max-width: 450px){
+ #rest{
+  width: 400px;
+ }
+ .actualimg{
+  width: 400px;
+ }
+ main{
+  margin-left: 6px;
+ }
+}
